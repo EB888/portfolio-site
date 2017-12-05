@@ -3,6 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+.white-font {
+  color: white; }
+
+.black-icon {
+  color: black; }
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -11,12 +17,12 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #00ff00; }
   a:hover {
-    color: #fec503; }
+    color: #00cc00; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #00ff00 !important; }
 
 h1,
 h2,
@@ -32,7 +38,8 @@ section {
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    color: #00ff00; }
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
@@ -54,21 +61,21 @@ section {
   padding: 20px 40px; }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136; }
+  background-color: #00ff00;
+  border-color: #00ff00; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: #00d900 !important;
+    border-color: #00d900 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #00ff00;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #00ff00;
   text-shadow: none; }
 
 img::selection {
@@ -78,7 +85,10 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #00ff00; }
+
+.black-button-font {
+  color: black; }
 
 #mainNav {
   background-color: #212529; }
@@ -89,13 +99,13 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #00ff00;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: #00ff00;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #00cc00; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -104,7 +114,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #00ff00; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -176,13 +186,18 @@ header.masthead {
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
+  text-transform: none;
+  color: white; }
 
 .services-background-color {
   background-color: black; }
 
+.skill-image {
+  height: 125px;
+  width: 125px; }
+
 .portfolio-background-color {
-  background-color: black; }
+  background-color: #262626; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -201,7 +216,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: rgba(0, 255, 0, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -347,9 +362,9 @@ header.masthead {
       margin-left: 0;
       text-align: center;
       color: white;
-      border: 7px solid #e9ecef;
+      border: 7px solid grey;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #00ff00; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -374,7 +389,8 @@ header.masthead {
     margin-top: 0;
     color: inherit; }
     .timeline .timeline-heading h4.subheading {
-      text-transform: none; }
+      text-transform: none;
+      color: white; }
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
     margin-bottom: 0; }
@@ -435,7 +451,7 @@ header.masthead {
       padding: 0 100px 20px 20px; } }
 
 .team-background-color {
-  background-color: black; }
+  background-color: #262626; }
 
 .team-member {
   margin-bottom: 50px;
@@ -443,7 +459,7 @@ header.masthead {
   .team-member img {
     width: 225px;
     height: 225px;
-    border: 7px solid #fff; }
+    border: 7px solid black; }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -468,7 +484,7 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 248px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #00ff00;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
@@ -490,7 +506,7 @@ section#contact {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 .footer-background-color {
-  background-color: #1a1a1a; }
+  background-color: black; }
 
 footer {
   padding: 25px 0;
@@ -524,4 +540,4 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #00ff00; }

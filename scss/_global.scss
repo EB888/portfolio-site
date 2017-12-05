@@ -1,8 +1,28 @@
 // Global styling for this template
+
+//
+.white-font{
+  color: white;
+}
+
+// makes the icons from font-awesome black instead of white
+.black-icon{
+  color: black;
+}
+
+// .intro-heading-custom{
+//   font-size: 75px;
+//   font-family: arial;
+//   font-weight: bold;
+// }
+///////////////////
+///////////////////
+///////////////////
+///////////////////
 body {
   overflow-x: hidden;
   @include body-font;
-  
+
   //I added this
     // background-color: black;
 }
@@ -38,6 +58,8 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    // added line below
+    color: $primary;
   }
   h3.section-subheading {
     font-size: 16px;
@@ -46,6 +68,8 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;
+    // added line below
+    // color: $primary;
   }
 }
 @media(min-width:768px) {

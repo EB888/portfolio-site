@@ -1,4 +1,9 @@
 // Styling for the navbar
+
+.black-button-font{
+  color: black;
+}
+
 #mainNav {
   background-color: $gray-900;
   .navbar-toggler {
@@ -13,6 +18,7 @@
   }
   .navbar-brand {
     color: $primary;
+    // color: #00ff00;
     @include script-font;
     &.active,
     &:active,
