@@ -3,7 +3,7 @@ $(function() {
   $(window).on('load', function() {
 
     // Animate loader off screen
-    $(".se-pre-con").delay(3000).fadeOut(200);
+    $(".se-pre-con").delay(1000).fadeOut(200);
     console.log("TEST");
   });
 
