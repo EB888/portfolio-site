@@ -6,6 +6,10 @@
 div.portfolio-caption h4 {
   font-size: 1rem; }
 
+.portfolio-thumbnail {
+  height: 200px;
+  max-width: 100%; }
+
 .timeline-background-color {
   background-color: black; }
 
