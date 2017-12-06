@@ -1,5 +1,49 @@
 // Global styling for this template
 
+div.portfolio-caption h4{
+	font-size: 1rem;
+}
+
+.portfolio-thumbnail{
+
+}
+
+.timeline-background-color{
+  background-color: black;
+}
+
+.team-background-color {
+  background-color: #262626;
+}
+
+//////////
+// I added this style to change the background-color of the services section
+.services-background-color {
+  background-color: black;
+  // background-color: #262626;
+}
+
+//styles for the technology logos in the services section
+.skill-image{
+  // max-width: 100%;
+  // height: auto;
+  height: 125px;
+  width: 125px;
+}
+
+// I added this style to change the background-color of the services section
+.portfolio-background-color {
+  background-color: #262626;
+}
+
+.footer-background-color{
+  background-color: black;
+}
+
+.black-button-font{
+  color: black;
+}
+
 /*pre loading icon*/
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }

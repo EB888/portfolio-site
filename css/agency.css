@@ -3,6 +3,31 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+div.portfolio-caption h4 {
+  font-size: 1rem; }
+
+.timeline-background-color {
+  background-color: black; }
+
+.team-background-color {
+  background-color: #262626; }
+
+.services-background-color {
+  background-color: black; }
+
+.skill-image {
+  height: 125px;
+  width: 125px; }
+
+.portfolio-background-color {
+  background-color: #262626; }
+
+.footer-background-color {
+  background-color: black; }
+
+.black-button-font {
+  color: black; }
+
 /*pre loading icon*/
 .no-js #loader {
   display: none; }
@@ -106,9 +131,6 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #00ff00; }
 
-.black-button-font {
-  color: black; }
-
 #mainNav {
   background-color: #212529; }
   #mainNav .navbar-toggler {
@@ -207,16 +229,6 @@ header.masthead {
   margin: 15px 0;
   text-transform: none;
   color: white; }
-
-.services-background-color {
-  background-color: black; }
-
-.skill-image {
-  height: 125px;
-  width: 125px; }
-
-.portfolio-background-color {
-  background-color: #262626; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -330,9 +342,6 @@ header.masthead {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
         background-color: #212529; }
-
-.timeline-background-color {
-  background-color: black; }
 
 .timeline {
   position: relative;
@@ -469,9 +478,6 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
-.team-background-color {
-  background-color: #262626; }
-
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -523,9 +529,6 @@ section#contact {
     font-weight: 700;
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-.footer-background-color {
-  background-color: black; }
 
 footer {
   padding: 25px 0;
